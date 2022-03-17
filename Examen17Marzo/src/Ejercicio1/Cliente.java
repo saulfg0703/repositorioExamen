@@ -5,6 +5,9 @@ Ejerc1_1: Extraer los datos relacionados con el telefono en otra clase llamada T
 public class Cliente {
     private Telefono data = new Telefono();
 
+    public static void main(String[] args) {
+		System.out.println("Hola mundo");
+	}
 
 
 	public String getPrefijoTelefonoTrabajo() {
