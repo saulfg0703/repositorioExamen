@@ -10,7 +10,9 @@ public class Cuenta {
     }
 
     public int sacarDinero(double cantidad) {
-        if (cantidad > saldo) return -1;
-        else { saldo -= cantidad; return 0; }
+        if (cantidad > saldo) {
+        	 new ExcepcionSaldoInsuficiente("Saldo insuficiente");
+        }  else { saldo -= cantidad;}
+		return 0;
     }
 }

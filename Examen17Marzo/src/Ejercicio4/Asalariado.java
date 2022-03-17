@@ -5,11 +5,11 @@ import Ejercicio2.Empleado;
 /*
  Ejerc1_4: ¿qué podrías refactorizar en este ejercicio? Justifica tu respuesta y refactoriza en caso necesario.
  */
-public class Asalariado extends Empleado{
-    private String nombre;
+public class Asalariado extends Empleados{
+    /*private String nombre;
     private String direccion;
     private String telefono;
-    private String email;
+    private String email;*/
 
     public Asalariado() {
     }
@@ -18,7 +18,7 @@ public class Asalariado extends Empleado{
        super(nombre, direccion, telefono, email);
     }
 
-    public String getNombre() {
+ /*   public String getNombre() {
         return nombre;
     }
 
@@ -48,5 +48,5 @@ public class Asalariado extends Empleado{
 
     public void setEmail(String email) {
         this.email = email;
-    }
+    }*/
 }

@@ -3,17 +3,17 @@ package Ejercicio4;
 /*
  Ejerc1_4: ¿qué podrías refactorizar en este ejercicio? Justifica tu respuesta y refactoriza en caso necesario.
  */
-public class Empleado {
+public class Empleados {
 
     private String nombre;
     private String direccion;
     private String telefono;
     private String email;
 
-    public Empleado() {
+    public Empleados() {
     }
 
-    public Empleado(String nombre, String direccion, String telefono, String email) {
+    public Empleados(String nombre, String direccion, String telefono, String email) {
         this.nombre = nombre;
         this.direccion = direccion;
         this.telefono = telefono;
